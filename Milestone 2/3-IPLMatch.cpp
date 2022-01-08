@@ -21,8 +21,7 @@ class Solution {
             
             d.push_back(i);
             v.push_back( arr[d.front()] );
-        }
-        
+        }        
         return v;
     }
 };
