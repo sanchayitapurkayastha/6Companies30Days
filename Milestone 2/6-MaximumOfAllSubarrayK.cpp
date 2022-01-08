@@ -9,8 +9,7 @@ class Solution
         
         int i = 0;
         for (; i < k; i ++){
-            while (!d.empty() && arr[i] >= arr[d.back()])   d.pop_back();
-            
+            while (!d.empty() && arr[i] >= arr[d.back()])   d.pop_back();            
             d.push_back(i);
         }
         v.push_back( arr[d.front()] );
