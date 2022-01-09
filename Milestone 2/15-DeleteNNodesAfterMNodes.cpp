@@ -3,9 +3,7 @@
 class Solution
 {
     public:
-    void linkdelete(struct Node  *head, int M, int N)
-    {
-        //Add code here   
+    void linkdelete(struct Node  *head, int M, int N) { 
         if (!head)  return;
         
         struct Node *p = head;
